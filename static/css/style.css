@@ -1,0 +1,32 @@
+body {
+    font-family: 'Segoe UI';
+    background: #f5f6fa;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #2563eb;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.icon-card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.icon-card img {
+    width: 70px;
+    margin-bottom: 10px;
+}

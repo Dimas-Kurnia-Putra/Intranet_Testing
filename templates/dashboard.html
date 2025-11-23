@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard Intranet</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <aside class="sidebar">
+        <h2>Intranet</h2>
+        <ul>
+            <li><a href="/landing">🏠 Home</a></li>
+            <li><a href="https://teams.microsoft.com" target="_blank">💬 Teams</a></li>
+            <li><a href="https://outlook.office.com" target="_blank">📨 Outlook</a></li>
+            <li><a href="/logout">🚪 Logout</a></li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+        <h1>Selamat datang, {{ user }}</h1>
+        <p>Dashboard ini memuat ringkasan aktivitas perusahaan.</p>
+    </main>
+
+</div>
+
+</body>
+</html>
